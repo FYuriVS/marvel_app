@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/listCharacterFragment"
-        android:title="Home"
         android:icon="@drawable/ic_home"
-        app:showAsAction="ifRoom" />
-
+        android:title="Home" />
     <item
         android:id="@+id/searchCharacterFragment"
-        android:title="Search"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/ic_home"
+        android:title="Search" />
 
     <item
         android:id="@+id/favoriteCharacterFragment"
-        android:title="Favorites"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/ic_home"
+        android:title="Favorites" />
 </menu>
